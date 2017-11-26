@@ -4,7 +4,7 @@ An app that helps you pick edible Finnish mushrooms!
 
 ## Table of Contents
 * [Goal](#goal)
-* [Issues ran into](#issues
+* [Issues ran into](#issues)
 * [General guidance on mushroom classification](#guidance)
 * [Data](#data)
   *[Sources](#sources)
