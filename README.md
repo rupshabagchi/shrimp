@@ -1,9 +1,6 @@
-:mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom:
-
-
 # Shroominen 
 
-An app that helps you pick edible Finnish mushrooms!   :mushroom::mushroom::mushroom::mushroom::mushroom::mushroom:
+An app that helps you pick edible Finnish mushrooms! 
 
 :mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom:
 
