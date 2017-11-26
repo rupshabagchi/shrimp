@@ -33,6 +33,12 @@ There is also a lot of data such as smell and touch that could be used but then 
 * [Luontoportti](http://www.luontoportti.com/suomi/fi/sienet/)
 * [Funga](http://www.funga.fi/teema-aiheet/sienten-tunnistaminen/)
 
+### Downloading and importing the dataset
+
+The data was scraped from from mushroom.world website using a scraper beforehand. The images and the metadata are stored in both Google Drive and Amazon S3. But since Google Drive doesn't support direct downloads (like wtf) I had to put the file in S3 too. With public access rights, yay.
+
+The pictures are `.jpg` pictures resized to a standard 480x480 size. (Or 360x480?)
+
 ### Preliminary Models:
 
 #### Mushroom Class 
