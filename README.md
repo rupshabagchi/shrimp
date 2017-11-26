@@ -2,11 +2,16 @@
 
 An app that helps you pick edible Finnish mushrooms!
 
-## Goal
+## Table of Contents
+* [Goal](#goal)
+* [Issues ran into](#issues)
+
+
+## <a name="goal"/> Goal of the app
 
 The goal is to classify pictures of common mushrooms with a web application.
 
-## Issues
+## <a name="issues"/> Issues
 The main issue is getting good quality data for the training and then removing images which have issues such as bad lighting, angle, blurriness or background noise.
 
 ## General guidance for classifying mushrooms from pictures
