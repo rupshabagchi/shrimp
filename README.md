@@ -4,8 +4,12 @@ An app that helps you pick edible Finnish mushrooms!
 
 ## Table of Contents
 * [Goal](#goal)
-* [Issues ran into](#issues)
-
+* [Issues ran into](#issues
+* [General guidance on mushroom classification](#guidance)
+* [Data](#data)
+  *[Sources](#sources)
+  *[Importing dataset](#import)
+* [Data Models](#models)
 
 ## <a name="goal"/> Goal of the app
 
@@ -14,7 +18,7 @@ The goal is to classify pictures of common mushrooms with a web application.
 ## <a name="issues"/> Issues
 The main issue is getting good quality data for the training and then removing images which have issues such as bad lighting, angle, blurriness or background noise.
 
-## General guidance for classifying mushrooms from pictures
+## <a name="guidance"/> General guidance on mushroom classification (from images)
 
 * Note where the mushroom grows: is it on the ground or on wood?
 
@@ -31,20 +35,22 @@ The main issue is getting good quality data for the training and then removing i
 There is also a lot of data such as smell and touch that could be used but then user would have to input it themselves.
 
 
-## Data source
+## <a name="data"/> Data  
+
+### <a name="sources"/> Sources
 
 * [Mushroom World](http://www.mushroom.world)
 * [Lajit](http://tun.fi/HBF.25786?locale=en)
 * [Luontoportti](http://www.luontoportti.com/suomi/fi/sienet/)
 * [Funga](http://www.funga.fi/teema-aiheet/sienten-tunnistaminen/)
 
-### Downloading and importing the dataset
+### <a name="import"/> Downloading and importing the dataset
 
 The data was scraped from from mushroom.world website using a scraper beforehand. The images and the metadata are stored in both Google Drive and Amazon S3. But since Google Drive doesn't support direct downloads (like wtf) I had to put the file in S3 too. With public access rights, yay.
 
 The pictures are `.jpg` pictures resized to a standard 480x480 size. (Or 360x480?)
 
-### Preliminary Models:
+### <a name="model"/> Models:
 
 #### Mushroom Class 
 
