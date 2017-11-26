@@ -6,32 +6,6 @@ An app that helps you pick edible Finnish mushrooms!
 
 The goal is to classify pictures of common mushrooms with a web application.
 
-### Preliminary Models:
-
-#### Mushroom Class
-* name_fin - Finnish name
-* name_eng - English name
-* name_latin - Latin name
-* url_mw - Mushroom-world url
-* url_wiki? - Wikipedia url
-* url_lajit? - Lajit.fi url
-* img_urls? - List of links to its images. Probably should be deleted.
-* edibility - edible/poisonous/inedible
-
-### Mushroom Image
-* name_latin - Latin name
-* name_img - Name of the image file
-* img_url - URL to the original picture
-* file_path - Path to the image from the root of its containing folder.
-
-
-## Data source
-
-[Mushroom World](http://www.mushroom.world)
-[Lajit](http://tun.fi/HBF.25786?locale=en)
-[Luontoportti](http://www.luontoportti.com/suomi/fi/sienet/)
-[Funga](http://www.funga.fi/teema-aiheet/sienten-tunnistaminen/)
-
 ## Issues
 The main issue is getting good quality data for the training and then removing images which have issues such as bad lighting, angle, blurriness or background noise.
 
@@ -50,3 +24,32 @@ The main issue is getting good quality data for the training and then removing i
 * Geographic location of the mushroom could be useful as some species probably don't grow everywhere in Finland.
 
 There is also a lot of data such as smell and touch that could be used but then user would have to input it themselves.
+
+
+## Data source
+
+[Mushroom World](http://www.mushroom.world)
+
+[Lajit](http://tun.fi/HBF.25786?locale=en)
+
+[Luontoportti](http://www.luontoportti.com/suomi/fi/sienet/)
+
+[Funga](http://www.funga.fi/teema-aiheet/sienten-tunnistaminen/)
+
+### Preliminary Models:
+
+#### Mushroom Class
+* name_fin - Finnish name
+* name_eng - English name
+* name_latin - Latin name
+* url_mw - Mushroom-world url
+* url_wiki? - Wikipedia url
+* url_lajit? - Lajit.fi url
+* img_urls? - List of links to its images. Probably should be deleted.
+* edibility - edible/poisonous/inedible
+
+### Mushroom Image
+* name_latin - Latin name
+* name_img - Name of the image file
+* img_url - URL to the original picture
+* file_path - Path to the image from the root of its containing folder.
