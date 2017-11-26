@@ -1,13 +1,20 @@
-# Shroominen
+:mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom:
 
-An app that helps you pick edible Finnish mushrooms!
+
+# Shroominen 
+
+An app that helps you pick edible Finnish mushrooms!   :mushroom::mushroom::mushroom::mushroom::mushroom::mushroom:
+
+:mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom::mushroom:
 
 ## Table of Contents
 * [Goal](#goal)
 * [Issues ran into](#issues)
 * [General guidance on mushroom classification](#guidance)
 * [Data](#data)
-* [Data Models](#models)
+* [Data Models](#model)
+
+
 
 ## <a name="goal"/> Goal of the app
 
