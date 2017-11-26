@@ -28,28 +28,31 @@ There is also a lot of data such as smell and touch that could be used but then 
 
 ## Data source
 
-[Mushroom World](http://www.mushroom.world)
-
-[Lajit](http://tun.fi/HBF.25786?locale=en)
-
-[Luontoportti](http://www.luontoportti.com/suomi/fi/sienet/)
-
-[Funga](http://www.funga.fi/teema-aiheet/sienten-tunnistaminen/)
+* [Mushroom World](http://www.mushroom.world)
+* [Lajit](http://tun.fi/HBF.25786?locale=en)
+* [Luontoportti](http://www.luontoportti.com/suomi/fi/sienet/)
+* [Funga](http://www.funga.fi/teema-aiheet/sienten-tunnistaminen/)
 
 ### Preliminary Models:
 
-#### Mushroom Class
-* name_fin - Finnish name
-* name_eng - English name
-* name_latin - Latin name
-* url_mw - Mushroom-world url
-* url_wiki? - Wikipedia url
-* url_lajit? - Lajit.fi url
-* img_urls? - List of links to its images. Probably should be deleted.
-* edibility - edible/poisonous/inedible
+#### Mushroom Class 
 
-### Mushroom Image
-* name_latin - Latin name
-* name_img - Name of the image file
-* img_url - URL to the original picture
-* file_path - Path to the image from the root of its containing folder.
+| Data       | Meaning         | 
+| ------------- |:-------------:| 
+| name_fin     | Finnish name| 
+| name_eng   | English name| 
+| name_latin  | Latin name| 
+| url_mw  | URL for Mushroom-world |
+| url_wiki?  | URL for Wikipedia |
+| url_lajit?  | URL for Lajit.fi |
+| edibility  | edible/poisonous/inedible |
+
+
+### Mushroom Images
+
+| Data       | Meaning         | 
+| ------------- |:-------------:| 
+| name_latin  | Latin name| 
+| name_img  | Name of the image file |
+| img_url  | URL to the original picture |
+| file_path  | Image Path | 
