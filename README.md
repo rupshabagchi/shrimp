@@ -40,6 +40,16 @@ loaded_model = model_from_json(loaded_model_json)
 loaded_model.load_weights("models/weights.h5")
 ```
 
+### Running the prediction
+
+```
+x = X_imgs[0]               # X_imgs contains images as (N, 480, 480, 3) array
+x.shape = (1, ) + x.shape   # reshape x to (1, 480, 480, 3)
+x = x / 255.0               # rescale
+
+loaded_model.predict(x).round(3)
+# array([[ 0.32712618]], dtype=float32)
+```
 
 ## <a name="issues"/> Issues
 The main issue is getting good quality data for the training and then removing images which have issues such as bad lighting, angle, blurriness or background noise.
