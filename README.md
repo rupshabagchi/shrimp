@@ -5,7 +5,9 @@ An app that helps you pick edible Finnish mushrooms!
 
 ## Table of Contents
 * [Goal](#goal)
-* [To run](#run)
+* [To run model](#modelrun)
+* [To run frontend](#frontend)
+* [To run backend](#backend)
 * [Issues ran into](#issues)
 * [General guidance on mushroom classification](#guidance)
 * [Data](#data)
@@ -17,7 +19,7 @@ An app that helps you pick edible Finnish mushrooms!
 
 The goal is to classify pictures of common mushrooms with a web application.
 
-## <a name="run"/> To run
+## <a name="modelrun"/> To run model
 
 ### The scraper
 
@@ -50,6 +52,15 @@ x = x / 255.0               # rescale
 loaded_model.predict(x).round(3)
 # array([[ 0.32712618]], dtype=float32)
 ```
+
+
+## <a name="frontend"/> To run frontend
+
+TODO
+
+## <a name="backend"/> To run backend
+
+TODO
 
 ## <a name="issues"/> Issues
 The main issue is getting good quality data for the training and then removing images which have issues such as bad lighting, angle, blurriness or background noise.
