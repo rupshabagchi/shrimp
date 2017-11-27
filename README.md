@@ -5,6 +5,7 @@ An app that helps you pick edible Finnish mushrooms!
 
 ## Table of Contents
 * [Goal](#goal)
+* [To run](#run)
 * [Issues ran into](#issues)
 * [General guidance on mushroom classification](#guidance)
 * [Data](#data)
@@ -15,6 +16,19 @@ An app that helps you pick edible Finnish mushrooms!
 ## <a name="goal"/> Goal of the app
 
 The goal is to classify pictures of common mushrooms with a web application.
+
+## <a name="run"/> To run
+
+### The scraper
+
+First run the 'shroominen.ipynb' file which downloads the images. Then run the following commands in the terminal:
+`
+cd scraper
+pip install scrapy
+scrapy crawl mw_scraper
+`
+
+
 
 ## <a name="issues"/> Issues
 The main issue is getting good quality data for the training and then removing images which have issues such as bad lighting, angle, blurriness or background noise.
