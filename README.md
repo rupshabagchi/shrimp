@@ -17,7 +17,7 @@ An app that helps you pick edible Finnish mushrooms!
 
 ## <a name="goal"/> Goal of the app
 
-The goal is to classify pictures of common mushrooms with a web application.
+The goal of the app is to classify pictures of common mushrooms with a web application.
 
 ## <a name="modelrun"/> To run model
 
