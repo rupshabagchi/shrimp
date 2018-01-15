@@ -1,6 +1,6 @@
 # Shroominen :mushroom::mushroom:
 
-An app that helps you pick edible Finnish mushrooms! 
+An app that helps you pick edible Finnish mushrooms! <Files coming soon>
 
 
 ## Table of Contents
