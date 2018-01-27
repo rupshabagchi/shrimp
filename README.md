@@ -12,7 +12,7 @@ An app that helps you pick edible Finnish mushrooms!
 * [General guidance on mushroom classification](#guidance)
 * [Data](#data)
 * [Data Models](#model)
-
+*
 
 
 ## <a name="goal"/> Goal of the app
